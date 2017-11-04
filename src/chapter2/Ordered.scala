@@ -1,7 +1,6 @@
 package chapter2
 
 object Ordered extends App {
-
   def isSorted[A](as: Array[A], ordered: (A,A) => Boolean): Boolean = {
     def sortRec(h: A, t: Array[A]): Boolean =
       if (t.isEmpty) true
