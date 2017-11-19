@@ -2,7 +2,7 @@ package chapter2
 
 import scala.annotation.tailrec
 
-object Fibonacci extends App{
+object Fibonacci extends App {
   def fib(n: Int): Int = {
     @tailrec
     def fibRec(i: Int, i1: Int, pos: Int): Int =
