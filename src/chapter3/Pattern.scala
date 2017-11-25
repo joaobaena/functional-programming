@@ -1,6 +1,8 @@
 package chapter3
 import List._
 
+//ex. 3.2
+
 object Pattern extends App {
   val x = List(1, 2, 3, 4, 5) match {
     case Cons(x, Cons(2, Cons(4, _))) => x

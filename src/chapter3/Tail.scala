@@ -1,5 +1,7 @@
 package chapter3
 
+//ex. 3.2
+
 object Tail extends App {
   def tail[A](List: List[A]): List[A] = List match {
     case Nil => throw new UnsupportedOperationException
