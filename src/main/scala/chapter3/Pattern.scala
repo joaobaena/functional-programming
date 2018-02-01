@@ -1,7 +1,7 @@
 package chapter3
 import List._
 
-//ex. 3.2
+//ex. 3.1
 
 object Pattern extends App {
   val x = List(1, 2, 3, 4, 5) match {
